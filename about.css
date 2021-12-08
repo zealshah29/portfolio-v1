@@ -1,0 +1,171 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+/* variable CSS */
+:root{
+    --header-height:3rem;
+
+/* Font and TypogrPHY */
+--body-font:'Roboto', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 0 var(--header-height) 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-weight: 700;
+}
+
+/* Navigation bar */
+
+nav{
+    width: 100%;
+    position: fixed;
+    height: 110px;
+    margin: 0px;
+    background-color: white;
+    z-index: 2;
+}
+nav .menu{
+    display: flex;
+    align-items: center;
+    width: 530px;
+    height:52.614px;
+    position: absolute;
+    left: 53.3px;
+    top: 40px;
+}
+nav .menu .logo{
+    height: 52.614px;
+    width: 52.614px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    left:0%;
+    right: 88.1%;
+    top: 0%;
+    bottom: 0%; 
+}
+
+
+nav .menu ul{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 15%;
+}
+nav .menu ul li{
+    list-style: none;
+    font-size: 20px;
+    line-height: 25.6px;
+    padding: 18px 26px 9.2px;
+}
+nav .menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav .social{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 238px;
+    height: 25px;
+    top: 60px;
+    left: 1100px;
+}
+nav .social .media .images{
+    width: 30px;
+    height: auto;
+}
+nav .social .media{
+    margin: 8px;
+}
+.contact {
+    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    width: 174px;
+    height: 50px;
+    left: 1300px;
+    top: 40px;
+    background: #000000;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  /*About*/
+  /* About Me */
+.section_title{
+    position: absolute;
+    width: 234px;
+    height: 61px;
+    left: 130px;
+    top: 140px;
+
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 61px;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+
+}
+.about_img{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    left: 100px;
+    top: 220px;
+    border-radius: 4px;
+
+}
+.about_description{
+position: absolute;
+width: 513px;
+height: 191px;
+left: 800px;
+top: 250px;
+
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 35px;
+/* or 194% */
+
+letter-spacing: 0.05em;
+color: black;
+}
+.button{
+position: absolute;
+width: 130px;
+height: 25px;
+left: 820px;
+top: 550px;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+background-color: black;
+border-radius: 4px;
+cursor: pointer;
+
+}
+

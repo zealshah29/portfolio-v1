@@ -1,0 +1,187 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+/* variable CSS */
+:root{
+    --header-height:3rem;
+
+/* Font and TypogrPHY */
+--body-font:'Roboto', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 0 var(--header-height) 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-weight: 700;
+}
+
+/* Navigation bar */
+
+nav{
+    width: 100%;
+    position: fixed;
+    height: 110px;
+    margin: 0px;
+    background-color: white;
+    z-index: 2;
+}
+nav .menu{
+    display: flex;
+    align-items: center;
+    width: 530px;
+    height:52.614px;
+    position: absolute;
+    left: 53.3px;
+    top: 40px;
+}
+nav .menu .logo{
+    height: 52.614px;
+    width: 52.614px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    left:0%;
+    right: 88.1%;
+    top: 0%;
+    bottom: 0%; 
+}
+
+
+nav .menu ul{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 15%;
+}
+nav .menu ul li{
+    list-style: none;
+    font-size: 20px;
+    line-height: 25.6px;
+    padding: 18px 26px 9.2px;
+}
+nav .menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav .social{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 238px;
+    height: 25px;
+    top: 60px;
+    left: 1100px;
+}
+nav .social .media .images{
+    width: 30px;
+    height: auto;
+}
+nav .social .media{
+    margin: 8px;
+}
+.contact {
+    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    width: 174px;
+    height: 50px;
+    left: 1300px;
+    top: 40px;
+    background: #000000;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+/*page*/
+  .img_technical{
+      height: 650px;
+      width: 100%;
+  }
+  .rectangle{
+    position: absolute;
+    width: 100%;
+    height: 443px;
+    top: 300px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    
+  }
+  .heading{
+    position: absolute;
+    left: 20px;
+    top: 500px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 115px;
+    /* identical to box height */
+    color: #FFFFFF; 
+  }
+  .text{
+      position: absolute;
+      left:30px;
+      top: 620px;
+      color:white;
+  }
+  .material-icons{
+    position: absolute;
+    left: 1400px;
+    top: 630px;
+    cursor: pointer;
+    color: white;
+  }
+  /*page 2*/
+  #blog_page_2{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 70px; 
+    padding: 40px;
+    padding-top: 110px;
+    
+    
+}
+  .title{
+    
+    width: 100%;
+    height: 50px;
+
+    left: 130px;
+    z-index: 1;
+    padding: 20px 100px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 61px;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+
+}
+
+.blog_data{
+    position: relative;
+    top: 20px;
+    line-height: 30px;
+    width: 300px;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+}
+.blog_type{
+    font-size: 13px;
+    color: rgb(80, 80, 80);
+}
